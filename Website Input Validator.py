@@ -30,11 +30,11 @@ def userdata():
     user_password1 = str(input(f" {user_name1}, create a password:"))
     def user_password():
         if type(user_password1) != str and len(user_password1) <= 4:
-            print(f" {user_name1}, please check your password and try again")
+            print(f" {user_name1}, please check your password length and try again")
         elif not any(char.isdigit() for char in user_password1):
-                    print(f" {user_name1}, please check your password and try again")
+                    print(f" {user_name1}, your password must include at least a number")
         elif not any(char.isupper() for char in user_password1):
-                    print(f" {user_name1}, please check your password and try again")
+                    print(f" {user_name1}, your password must include an uppercase")
         else: 
             print(f" {user_name1}, your password has been created successfully")
             print(f" {user_name1}, your password is {user_password1}")
