@@ -36,7 +36,7 @@ def calculate():
 
 # GUI setup
 root = tk.Tk()
-root.title("Simple GUI Calculator")
+root.title("TheOne Calculator")
 root.geometry("350x300")
 root.resizable(False, False)
 
