@@ -14,7 +14,6 @@ def currency_converter():
         else:
             return None
 
-    # User input
     amount = float(input("Enter amount: "))
     from_currency = input("From currency (USD, NGN, YEN, GBP, EUR): ").upper()
     to_currency = input("To currency (USD, NGN, YEN, GBP, EUR): ").upper()
